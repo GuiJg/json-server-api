@@ -1,9 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "produtos": [
+    {
+      "name": "honda pop 110i",
+      "price": "15.000",
+      "color": "branca",
+      "status": "Em estoque",
+      "id": "01"
+    },
+    {
+      "id": "02",
+      "name": "honda 500X",
+      "price": "50.000",
+      "color": "VERMELHA",
+      "status": "Sem estoque"
+    },
+    {
+      "id": "03",
+      "name": "honda cb 300f twister",
+      "price": "30.000",
+      "color": "preta",
+      "status": "Em trânsito"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "categorias": [
+    {
+      "id": "1",
+      "name": "Motos"
+    }
+  ]
 }
